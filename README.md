@@ -2,8 +2,6 @@
 
 GPTvsGPT is a playful Python application that simulates a conversation between two AI Assistants with distinct personalities. This program leverages OpenAI's Assistant API to generate a back-and-forth dialogue on a specified topic, allowing each Assistant's unique character traits to shine through in the conversation. This is easily extendible with additional Assistant API capabilities such as function calls and retrieval. You can learn more about the OpenAI Assistant API [here](https://platform.openai.com/docs/assistants/overview).
 
-Find me on X/Twitter at [@yoheinakajima](https://twitter.com/yoheinakajima).
-
 ## How it Works
 
 The application creates two Assistants with predefined personalities and instructions. It initiates a thread for each Assistant and starts a conversation on a given topic. Each Assistant takes turns responding to the other, with the conversation dynamically unfolding in real-time. Once set up, set up your parameters and run like this:
@@ -40,8 +38,8 @@ converse(assistant_1_params, assistant_2_params, "global warming", 5)
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yoheinakajima/GPTvsGPT.git
-cd GPTvsGPT
+git clone https://github.com/happy-armin/GPTs.git
+cd GPTs
 ```
 
 2. Install the required dependencies:
